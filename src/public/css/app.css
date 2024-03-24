@@ -1,0 +1,160 @@
+.header{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+}
+.header-logo{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 10px;
+    
+}
+.header-list{
+  display: flex;
+  margin-left: auto;
+  margin-right: 0%;
+}
+.headerlink{
+    box-sizing: border-box;
+    font-weight: bold;
+    margin-right: 0;
+    padding: 20px 40px;
+}
+.main{
+  text-align: center;
+  display: flex;
+  
+}
+.home-page{
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  padding: 50px 20px;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
+  .worktime{
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  
+    
+    }
+  .userlogin{
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    width: 100%;
+    font-size: 27px;
+  }
+  .home{
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   justify-content: center;
+    padding: 10px 10px;
+    border: 4px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+   
+  }
+  .work-rest{
+    
+    box-sizing: border-box;
+    background: white;
+    width: 500px;
+    height: 100px;
+    font-weight: bold;
+    padding: 10% 0;
+    margin-bottom: 20px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 4%;
+    text-align: center;
+    
+  }
+  .work-rest:nth-child(2n){
+    
+  }
+  .work-rest:nth-child(3n),.work-rest:nth-child(4) {
+    
+  }
+  .login-page{
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding: 80px 0;
+    justify-content: center;
+    background-color: whitesmoke;
+    height: 700px;
+  }
+.title{
+    font-size: 28px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: 20%;
+    font-weight: bold;
+  }
+
+.login-form{
+    margin-top: 20em;
+    display:flex;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+
+.input-form{
+    margin-top: 30px;
+    text-align: center;
+    width: auto;
+    height: 70px;
+  }
+  .name{
+    width: 400px;
+    height: 40px;
+  }
+ .email{
+  width: 400px;
+  height: 40px;
+ }
+  .password{
+    width: 400px;
+    height: 40px;
+  }
+  .login-button{
+    text-align: center;
+    accent-color: blue;
+    padding: 20px;
+  }
+  .submit {
+   color: white;
+   background-color: blue;
+   width: 400px;
+   height: 40px;
+   
+    text-align: center;
+   
+  }
+  .timeform{
+    display: flex;
+  }
+  .timetable{
+    width: 100%;
+    margin-left: 40px;
+    height: 200px;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+   max-width: 1400px;
+  }
+ th, td {
+   border-top: 2px solid black;
+   padding: 20px 0;
+ }

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AtteController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+Route::get('/',[AtteController::class,'index']);
+Route::get('/login',[AtteController::class,'login'])->name('login');
+Route::post('/login',[AtteController::class,'login']);
+Route::get('/register',[AtteController::class,'register'])->name('register');
+Route::post('register',[AtteController::class,'register']);
+Route::get('/attendance',[AtteController::class,'attendance'])->name('attendance');
+Route::post('/attendance',[AtteController::class,'attendance']);
