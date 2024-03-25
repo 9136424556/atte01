@@ -2,7 +2,7 @@ Atte(勤怠管理システム)
 
 目的：社員1人における勤務時間の管理、把握
 
-使用技術: laravel 8.83.8　、PHP、
+使用技術: laravel 8.83.8　、PHP、blade、css、
 
 テーブル設計
 users					
